@@ -94,3 +94,14 @@
 // ]
 
 // }
+
+// L.geoJson(data, {
+//     pointToLayer: function(feature, latlng) {
+//       return L.marker(latlng);
+//      }
+// });
+// L.geoJson(data, {
+//     onEachFeature: function(feature, layer) {
+//       layer.bindPopup();
+//      }
+// });
